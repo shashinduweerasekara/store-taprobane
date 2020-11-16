@@ -64,7 +64,7 @@
 
     <div class="middleContent m-4"><!--middleContent-->
 
-        <div class="card mb-3 col-12 col-md-8">
+        <div class="card mb-3 col-12 col-lg-8">
             <div class="row no-gutters">
               <div class="col-md-4">
                 <img src="img/sp102.jpg" class="card-img" alt="Turmeric Powder">
@@ -76,12 +76,12 @@
                     <p class="card-text mb-0">Price: $4.00 (100g)</p>
                     <p class="card-text mt-0">Item Code: 102</p>
                     <div class="row">
-                        <div class="row mx-0">
+                        <div class="row col-6 mx-0">
                             <p class="col-12 mb-1">Quantity</p>
-                            <div class="def-number-input number-input safari_only mb-0 w-100 col-12">
-                            <a type="button"><i class="fas fa-minus"></i></button>
-                            <input class="quantity" min="0" name="quantity" value="1" type="number" style="max-width: 50px; text-align: center;">
-                            <a type="button"><i class="fas fa-plus"></i></a>
+                            <div class="def-number-input number-input mb-0 w-100 col-12">
+                              <button class="btn btn-outline-dark btn-min"><i class="fas fa-minus"></i></button>
+                              <input id="quantity" min="1" value="1" style="max-width: 50px; text-align: center;">
+                              <button class="btn btn-outline-dark btn-plus" type="button"><i class="fas fa-plus"></i></button>
                             </div>
                         </div>
                         <div class="row col-6">
@@ -203,6 +203,8 @@
     <!-- Footer -->
 
   </div><!--container-->
+
+  <script src="js/quantity.js"></script>
 
 </body>
 </html>

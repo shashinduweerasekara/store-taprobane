@@ -92,7 +92,7 @@ function displayCart() {
   <div class="row no-gutters">
     <div class="col-md-4">
       <img
-        src="../img/${item.id}.png"
+        src="img/${item.id}.png"
         class="card-img"
         alt="Black Pepper Powder"
       />
@@ -128,7 +128,7 @@ function displayCart() {
 
     let totalContainer = document.querySelector(".totalContainer");
     totalContainer.innerHTML += `
-    <div class="pt-4">
+    <div class="pt-4 sticky-top">
   <h5 class="mb-3">Total amount</h5>
 
   <ul class="list-group list-group-flush">
